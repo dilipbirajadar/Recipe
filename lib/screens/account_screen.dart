@@ -13,9 +13,7 @@ class _AccountScreenState extends State<AccountScreen> {
     return Scaffold(
       appBar: AppBar(title: const Text("Recipe App"),),
       body: const Center(
-        child: Center(
-          child:Text('Welcome to Account section'),
-        )
+        child: Text('Welcome to Account'),
       ),
     );
   }
