@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:recipe/shared/color.dart';
+import 'package:recipe/widgets/explore/button_widget.dart';
+import 'package:recipe/widgets/explore/grid_view_recipe.dart';
+import 'package:recipe/widgets/explore/widget_text_container.dart';
 
 class FavoriteScreen extends StatefulWidget {
   const FavoriteScreen({Key? key}) : super(key: key);
@@ -11,9 +15,16 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Recipe App"),),
-      body: const Center(
-        child: Text('Welcome to Favorite'),
+      backgroundColor: AppColor.secondaryColor,
+      body: SafeArea(
+        child: Column(
+          children: [
+            textrecipe(text: "Your favorite reciepes ..."),
+            recipegridview(isFavScreen: true),
+            SizedBox(height: 2),
+            recipebutton(),
+          ],
+        ),
       ),
     );
   }
