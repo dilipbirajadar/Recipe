@@ -1,0 +1,102 @@
+[
+   {
+      "description":"Some pasta recipes stand a head above the rest, and this is one of them. Try this cheese tortellini in creamy marinara sauce! In just 15 minutes, you’ve got a pasta skillet that’s a literal symphony flavor. The fresh basil-infused marinara sauce is perfectly complimented with pillows of tangy goat cheese.",
+      "image-name":"cajun_shrimp",
+      "ingredients":[
+         "Shrimp",
+         "Kosher Salt",
+         "Cajun",
+         "Garlic Powder",
+         "Onion Powder",
+         "Olive Oil"
+      ],
+      "isFavorite":false,
+      "method":"Pat the shrimp dry. In a medium bowl, mix the shrimp with ½ teaspoon kosher salt, the Cajun seasoning, garlic powder and onion powder.In your largest skillet * (cast iron or stainless preferred),heat the olive oil on medium high heat.Add the shrimp and cook for 1 to 2 minutes per side until just opaque and cooked through, turning them with tongs.Once cooked through, serve immediately.,",
+      "name":"Cajun Shrimp",
+      "rating":4.2
+   },
+   {
+      "description":"CHAWAL AUR GANNE KE RASS KI KHEER by Executive Chef Rajnish Malkoti, Welcomhotel by ITC Hotels Shimla",
+      "image-name":"chawal_aur_ganne_ki_rass_ki_kheer",
+      "ingredients":[
+         "Sugarcane Juice",
+         "Basmati Rice",
+         "Cardamom",
+         "Milk",
+         "Mixed Nuts",
+         "Ghee"
+      ],
+      "isFavorite":false,
+      "method":"Strain the sugarcane juice into a heavy based saucepan. Bring to a boil over medium heat. As the juice boils, scum will start to rise to the surface. Use a large spoon or strainer to scoop and discard it. You will need to repeat this process until all the scum has been removedDrain the rice well and add it to the saucepan along with the cardamom.Stir the mixture frequently over medium - low heat for about 20 - 25 minutes.As the rice starts to soften. Turn down the heat and cover the saucepan.Continue to cook the kheer for another 15 minutes, stirring occasionally, until the rice is fully cooked.In a small saucepan,bring the milk to and boil.Add it to the kheer and stir well. In a small pan heat the ghee and fry the nuts and raisins until golden and add to the kheer.Cover and simmer the kheer for 5 - 7 more minutes or until it thickens to the desired consistency.Remove from heat and keep for cooling. Garnish with the nuts and raisins and serve cold.",
+      "name":"CHAWAL AUR GANNE KE RASS KI KHEER",
+      "rating":3.5
+   },
+   {
+      "description":"CHAWAL AUR GANNE KE RASS KI KHEER by Executive Chef Rajnish Malkoti, Welcomhotel by ITC Hotels Shimla",
+      "image-name":"chawal_aur_ganne_ki_rass_ki_kheer",
+      "ingredients":[
+         "Sugarcane Juice",
+         "Basmati Rice",
+         "Cardamom",
+         "Milk",
+         "Mixed Nuts",
+         "Ghee"
+      ],
+      "isFavorite":true,
+      "method":"Strain the sugarcane juice into a heavy based saucepan. Bring to a boil over medium heat. As the juice boils, scum will start to rise to the surface. Use a large spoon or strainer to scoop and discard it. You will need to repeat this process until all the scum has been removedDrain the rice well and add it to the saucepan along with the cardamom.Stir the mixture frequently over medium - low heat for about 20 - 25 minutes.As the rice starts to soften. Turn down the heat and cover the saucepan.Continue to cook the kheer for another 15 minutes, stirring occasionally, until the rice is fully cooked.In a small saucepan,bring the milk to and boil.Add it to the kheer and stir well. In a small pan heat the ghee and fry the nuts and raisins until golden and add to the kheer.Cover and simmer the kheer for 5 - 7 more minutes or until it thickens to the desired consistency.Remove from heat and keep for cooling. Garnish with the nuts and raisins and serve cold.",
+      "name":"CHAWAL AUR GANNE KE RASS KI KHEER",
+      "rating":3.5
+   },
+   {
+      "description":"Some pasta recipes stand a head above the rest, and this is one of them. Try this cheese tortellini in creamy marinara sauce! In just 15 minutes, you’ve got a pasta skillet that’s a literal symphony flavor. The fresh basil-infused marinara sauce is perfectly complimented with pillows of tangy goat cheese.",
+      "image-name":"cheese_tortellini",
+      "ingredients":[
+         "Cheese Tortellini",
+         "Tomatoes",
+         "Olive Oil",
+         "Balsamic Vinegar",
+         "Garlic Powder",
+         "Oregano",
+         "Kosher Salt",
+         "Spinach Leaves",
+         "Basil Leaves",
+         "Cheese"
+      ],
+      "isFavorite":false,
+      "method":"Boil the tortellini according to the package instructions (fresh usually takes 2 to 3 minutes and frozen takes 2 to 5 minutes to boil). Then drain it. Meanwhile, in a large skillet, place the crushed tomatoes, olive oil, balsamic vinegar, garlic powder, oregano, kosher salt, spinach, and whole basil leaves.Bring to a simmer, then cover and simmer while the pasta cooks or at least 10 minutes. When the pasta is done and drained, add it to the skillet.Crumble in the goat cheese into the sauce and stir until a creamy sauce forms if you’ d like, save out a few crumbles for topping).Serve immediately",
+      "name":"Cheese tortellini In Creamy Marinara",
+      "rating":4.8
+   },
+   {
+      "description":"Some pasta recipes stand a head above the rest, and this is one of them. Try this cheese tortellini in creamy marinara sauce! In just 15 minutes, you’ve got a pasta skillet that’s a literal symphony flavor. The fresh basil-infused marinara sauce is perfectly complimented with pillows of tangy goat cheese.",
+      "image-name":"cajun_shrimp",
+      "ingredients":[
+         "Shrimp",
+         "Kosher Salt",
+         "Cajun",
+         "Garlic Powder",
+         "Onion Powder",
+         "Olive Oil"
+      ],
+      "isFavorite":true,
+      "method":"Pat the shrimp dry. In a medium bowl, mix the shrimp with ½ teaspoon kosher salt, the Cajun seasoning, garlic powder and onion powder.In your largest skillet * (cast iron or stainless preferred),heat the olive oil on medium high heat.Add the shrimp and cook for 1 to 2 minutes per side until just opaque and cooked through, turning them with tongs.Once cooked through, serve immediately.,",
+      "name":"Cajun Shrimp",
+      "rating":4.2
+   },
+   {
+      "description":"CHAWAL AUR GANNE KE RASS KI KHEER by Executive Chef Rajnish Malkoti, Welcomhotel by ITC Hotels Shimla",
+      "image-name":"chawal_aur_ganne_ki_rass_ki_kheer",
+      "ingredients":[
+         "Sugarcane Juice",
+         "Basmati Rice",
+         "Cardamom",
+         "Milk",
+         "Mixed Nuts",
+         "Ghee"
+      ],
+      "isFavorite":true,
+      "method":"Strain the sugarcane juice into a heavy based saucepan. Bring to a boil over medium heat. As the juice boils, scum will start to rise to the surface. Use a large spoon or strainer to scoop and discard it. You will need to repeat this process until all the scum has been removedDrain the rice well and add it to the saucepan along with the cardamom.Stir the mixture frequently over medium - low heat for about 20 - 25 minutes.As the rice starts to soften. Turn down the heat and cover the saucepan.Continue to cook the kheer for another 15 minutes, stirring occasionally, until the rice is fully cooked.In a small saucepan,bring the milk to and boil.Add it to the kheer and stir well. In a small pan heat the ghee and fry the nuts and raisins until golden and add to the kheer.Cover and simmer the kheer for 5 - 7 more minutes or until it thickens to the desired consistency.Remove from heat and keep for cooling. Garnish with the nuts and raisins and serve cold.",
+      "name":"CHAWAL AUR GANNE KE RASS KI KHEER",
+      "rating":3.5
+   }
+]
