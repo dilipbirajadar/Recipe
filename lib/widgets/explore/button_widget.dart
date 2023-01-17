@@ -5,7 +5,7 @@ class recipebutton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 50,
+      height: 60,
       width: 400,
       padding: const EdgeInsets.fromLTRB(20, 10, 25, 5),
       color: AppColor.secondaryColor,

@@ -19,9 +19,9 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
       body: SafeArea(
         child: Column(
           children: [
-            textrecipe(text: "Your favorite reciepes ..."),
+            textrecipe(text: "Your favorite recipes ..."),
             recipegridview(isFavScreen: true),
-            SizedBox(height: 2),
+            const SizedBox(height: 2),
             recipebutton(),
           ],
         ),

@@ -149,7 +149,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
               icon: Icon(Icons.account_circle), label: 'Account'),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor: Colors.lightGreen,
+        selectedItemColor: Colors.deepOrangeAccent,
         onTap: _onItemTapped,
       ),
     );

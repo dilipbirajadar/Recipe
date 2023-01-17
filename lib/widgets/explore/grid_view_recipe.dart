@@ -54,13 +54,13 @@ class _recipegridviewState extends State<recipegridview> {
                     gridDelegate:
                         const SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 2,
-                      crossAxisSpacing: 50,
+                      crossAxisSpacing: 10,
                       mainAxisSpacing: 5,
                     ),
                     itemCount: snapshot.data!.length,
                     itemBuilder: ((context, index) {
                       return Container(
-                        margin: EdgeInsets.all(20),
+                        margin: EdgeInsets.all(15),
                         child: Card(
                           semanticContainer: true,
                           clipBehavior: Clip.antiAliasWithSaveLayer,
@@ -96,7 +96,7 @@ class _recipegridviewState extends State<recipegridview> {
           } else if (snapshot.hasError) {
             return Text(snapshot.error.toString());
           }
-          return Text("Loading...");
+          return const Text("Loading...");
         }),
       ),
     );

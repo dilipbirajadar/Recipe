@@ -32,7 +32,7 @@ class _RecipeDetailsScreen extends State<RecipeDetailsScreen> {
 
     return Scaffold(
       appBar: AppBar(
-          title: Text('Recipe Details'),
+          title: const Text('Recipe Details'),
           backgroundColor: AppColor.primaryColor),
       body: SafeArea(
         child: Column(
@@ -43,11 +43,10 @@ class _RecipeDetailsScreen extends State<RecipeDetailsScreen> {
               width: deviceWidth(context) * 1,
               child: Image(
                 image: AssetImage('images/${recipeData.imageName}.png'),
-                fit: BoxFit.fill,
+                fit: BoxFit.fitWidth,
               ),
             ),
             Container(
-                height: deviceHeight(context) * 0.07,
                 color: Colors.white,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -57,6 +56,7 @@ class _RecipeDetailsScreen extends State<RecipeDetailsScreen> {
                         child: Center(
                           child: Text(
                             recipeData.name,
+                            maxLines: 2,
                             style: const TextStyle(
                               fontSize: 25.0,
                               color: Colors.black,
@@ -102,6 +102,7 @@ class _RecipeDetailsScreen extends State<RecipeDetailsScreen> {
                 )),
             Container(
               height: deviceHeight(context) * 0.15,
+              margin: EdgeInsets.only(right: 30),
               width: deviceWidth(context),
               color: Colors.white,
               child: Column(
