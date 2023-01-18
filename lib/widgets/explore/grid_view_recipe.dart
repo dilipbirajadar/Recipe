@@ -35,6 +35,7 @@ class _recipegridviewState extends State<recipegridview> {
     //   url = urlExplore;
     // }
     _future = ApiHelper().getRecipe(widget.isFavScreen);
+    //this is for offline support
     readJson();
   }
 
