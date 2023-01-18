@@ -1,7 +1,3 @@
-// Question
-// [String] - options
-// correct answer
-// selected answer
 
 class RecipeData {
   String description = "";

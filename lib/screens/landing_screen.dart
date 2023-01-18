@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:recipe/screens/explore_screen.dart';
 import 'package:recipe/screens/welcome_screen.dart';
 
 class MyLogin extends StatefulWidget {
@@ -18,7 +19,7 @@ class _MyLoginState extends State<MyLogin> {
     String tData = DateFormat("HH:mm").format(DateTime.now());
     final appbar = AppBar(
       title:Text(tData),
-      backgroundColor: Color.fromRGBO(246, 131, 107, 1.0),
+      backgroundColor: const Color.fromRGBO(246, 131, 107, 1.0),
       actions: [
         IconButton(
           icon: Image.asset('images/imagerecipe1.png'),
@@ -52,7 +53,7 @@ class _MyLoginState extends State<MyLogin> {
                       decoration: BoxDecoration(
                         //shape: BoxShape.circle,
                         border: Border.all(width:1, color: Colors.white),
-                        image: DecorationImage(
+                        image: const DecorationImage(
                             image: AssetImage('images/background_image.png'), fit: BoxFit.cover),
                       ),
                       child: Column(
@@ -64,7 +65,7 @@ class _MyLoginState extends State<MyLogin> {
                           ]
                       )
                   ),
-                    SizedBox(
+                    const SizedBox(
                       height: 10.0,
                     ),
                     Container(
@@ -82,7 +83,7 @@ class _MyLoginState extends State<MyLogin> {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             RichText(
-                              text: TextSpan(
+                              text: const TextSpan(
                                 children: <TextSpan>[
                                   TextSpan(
                                       text: "It's ", style: TextStyle(fontFamily: 'Muli', color: Colors.black, fontSize: 50)),
@@ -91,11 +92,11 @@ class _MyLoginState extends State<MyLogin> {
                                       style: TextStyle(fontFamily: 'Muli', color: Color.fromRGBO(246, 131, 107, 1.0), fontSize: 50)),
                                 ],
                               ),),
-                            Text("Time!",style: TextStyle(fontFamily: 'Muli', color: Colors.black, fontSize: 50)),
-                            SizedBox(
+                            const Text("Time!",style: TextStyle(fontFamily: 'Muli', color: Colors.black, fontSize: 50)),
+                            const SizedBox(
                               height: 35.0,
                             ),
-                            Text("Your private coach in your lovely kitchen.",style: TextStyle(fontFamily: 'Muli', color: Colors.black, fontSize:15)),
+                            const Text("Your private coach in your lovely kitchen.",style: TextStyle(fontFamily: 'Muli', color: Colors.black, fontSize:15)),
 
                             const Center(
                             ),
@@ -107,11 +108,11 @@ class _MyLoginState extends State<MyLogin> {
                                     Navigator.push(
                                         context,
                                         MaterialPageRoute(
-                                          builder: (context) => WelcomeScreen(),
+                                          builder: (context) => ExploreScreen(),
                                         ));
                                   },
                                   shape: const StadiumBorder(),
-                                  fillColor: Color.fromRGBO(246, 131, 107, 1.0),
+                                  fillColor: const Color.fromRGBO(246, 131, 107, 1.0),
                                   child: const Padding(
                                     padding:
                                     EdgeInsets.symmetric(vertical: 12.0, horizontal: 24.0),
