@@ -7,7 +7,8 @@ import '../models/recipe.dart';
 
 class ApiHelper {
   final String urlExplore =
-      "https://flutter-receipe-default-rtdb.firebaseio.com/recipes.json";
+      //"https://flutter-receipe-default-rtdb.firebaseio.com/recipes.json";
+      "https://recipe-c6a5a-default-rtdb.firebaseio.com/data.json";
 
   Future<List<RecipeData>> getRecipe(bool isFav) async {
     // use async to define asyn functions in dart
@@ -51,7 +52,8 @@ class ApiHelper {
   Future<void> updateCurrentRecipeInformation(
       RecipeData recipeData, int index) async {
     String urlString =
-        "https://flutter-receipe-default-rtdb.firebaseio.com/recipes/$index.json";
+        //"https://flutter-receipe-default-rtdb.firebaseio.com/recipes/$index.json";
+        "https://recipe-c6a5a-default-rtdb.firebaseio.com/data/$index.json";
     final url = Uri.parse(urlString);
     final headers = {"Content-type": "application/json"};
     final json = jsonEncode(recipeData.toJson());
